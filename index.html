@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Zachary Eilers</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900&display=swap" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous" />
+
+  <!-- SEO -->
+  <meta name="Description" content="Portfolio site of Zachary Eilers, a web developer and student in Texas." />
+  <link rel="canonical" href="https://zacharyeilers.com" />
+
+  <!-- FAVICONS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png?v=2" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png?v=2" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png?v=2" />
+  <link rel="manifest" href="/favicons/site.webmanifest?v=2" />
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg?v=2" color="#3949ab" />
+  <link rel="shortcut icon" href="/favicons/favicon.ico?v=2" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml?v=2" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar bg-white border-bottom fixed-top">
+    <div class="container-fluid justify-content-start">
+      <a class="navbar-brand" href="/">Zachary Eilers</a>
+      <!-- <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars text-dark" style="font-size: 25px"></i>
+      </button> -->
+      <div class="d-flex flex-row align-items-center">
+        <a class="nav-link mx-2" aria-current="page" href="#skills">Skills</a>
+        <a class="nav-link mx-2" href="#projects">Projects</a>
+        <a href="https://www.twitter.com/Zachary_Eilers/" target="_blank" class="nav-link mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://github.com/ZacharyEilers" target="_blank" class="nav-link mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR -->
+
+  <section id="showcase" class="top-section">
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-6 order-2 order-md-1 text-center">
+          <div class="d-inline-block text-center pt-5">
+            <h4 class="lead display-4">I'm Zachary</h4>
+            <p class="lead">
+              I'm a
+              <span class="font-italic">developer</span>
+              with a passion for building things.
+            </p>
+          </div>
+
+          <div class="d-flex flex-row justify-content-center align-items-center">
+            <a class="btn btn-lg btn-dark background-dark background-dark-hover shadow-sm" href="https://github.com/ZacharyEilers" role="button" target="_blank">Github</a>
+            <div class="p-2 ms-2 d-flex flex-column align-items-start">
+              <p class="h6 mb-0 text-start">
+                Contact • for job or business inquires
+              </p>
+              <a href="mailto:zachary@zacharyeilers.com" class="text-decoration-none">
+                <p class="mb-0">zachary@zacharyeilers.com</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 order-1 order-md-2 text-center">
+          <img src="zachary-images/seniorPic.jpg" alt="My face" id="my-face" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section id="skills" class="py-3">
+      <h2 class="section-title display-4">Skills</h2>
+      <div class="row">
+        <div class="col-12 col-sm-4 d-flex flex-row align-items-center">
+          <p class="h5 me-2 fw-bold mb-0">Web</p>
+          <p class="h5 me-2 text-muted mb-0">HTML</p>
+          <p class="h5 me-2 text-muted mb-0">CSS</p>
+          <p class="h5 me-2 text-muted mb-0">React</p>
+          <p class="h5 me-2 text-muted mb-0">Typescript</p>
+        </div>
+        <div class="col-12 col-sm-4 d-flex flex-row align-items-center">
+          <p class="h5 me-2 fw-bold mb-0">Backend</p>
+          <p class="h5 me-2 text-muted mb-0">Node.js</p>
+          <p class="h5 me-2 text-muted mb-0">Express.js</p>
+          <p class="h5 me-2 text-muted mb-0">MongoDB</p>
+        </div>
+        <div class="col-12 col-sm-4 d-flex flex-row align-items-center">
+          <p class="h5 me-2 fw-bold mb-0">Mobile</p>
+          <p class="h5 me-2 text-muted mb-0">Flutter</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-3">
+      <div>
+        <h2 class="section-title display-4 mb-4">Projects</h2>
+
+        <div id="school-chat">
+          <div class="row">
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="schoolchat-images/screen_1.png" class="w-100" alt=" School Chat is the messaging platform for students" />
+            </div>
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="schoolchat-images/screen_2.png" class="w-100" alt=" Designed to connect everyone in the same class" />
+            </div>
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="schoolchat-images/screen_3.png" class="w-100" alt=" Instantly see every question ever asked" />
+            </div>
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="schoolchat-images/screen_6.png" class="w-100" alt=" Built for security with optional join codes" />
+            </div>
+          </div>
+
+          <div>
+            <div class="d-flex flex-row">
+              <img src="/app-icons/school-chat.png" alt="" height="75px" class="m-2 ms-0 rounded-4 border" />
+              <div class="d-flex flex-column justify-content-center">
+                <h5>School Chat</h5>
+                <h6 class="text-muted mb-0">iOS and Android Mobile App</h6>
+              </div>
+            </div>
+
+            <p>
+              A platform for connecting students to peers at their school.
+              Built using
+              <a href="https://flutter.dev/">Google's Flutter Framework</a>.
+            </p>
+            <p>
+              I built this app during the 2020 spring pandemic, during my
+              junior year of high school.
+            </p>
+
+            <h6 class="font-weight-bold">Tech Stack</h6>
+            <ul>
+              <li>Flutter Mobile App (Client)</li>
+              <li>Firebase for data syncing and storing</li>
+            </ul>
+
+            <h6 class="font-weight-bold">What I Learned</h6>
+            <ul>
+              <li>Cloud Firebase (NoSQL) Data Structure</li>
+              <li>Cloud Firestore Security Rules</li>
+              <li>Firebase Authentication</li>
+              <li>Syncing data from the disk to the cloud manually</li>
+            </ul>
+          </div>
+
+          <div class="d-flex flex-row">
+            <a href="https://apps.apple.com/us/app/school-chat/id1506708305#?platform=iphone" class="btn btn-link">App Store</a>
+            <a href="https://play.google.com/store/apps/details?id=com.schoolchat.android" class="btn btn-link">Google Play Store</a>
+            <a href="https://schoolchat.app" class="btn btn-link">Website</a>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="finished">
+          <div class="row">
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="finished-images/1home.png" class="w-100" alt="the dashboard page for viewing homework" />
+            </div>
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="finished-images/2timeblockpicker.png" class="w-100" alt="the complex time picker for committing to when to complete the homework" />
+            </div>
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="finished-images/3darkcalendar.png" class="w-100" alt="viewing homework on the calendar in dark mode" />
+            </div>
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="finished-images/5completinghomework.png" class="w-100" alt="swipe to mark homework items as complete" />
+            </div>
+          </div>
+
+
+
+          <div class="d-flex flex-row align-items-center">
+            <img src="/app-icons/finished.png" alt="" height="75px" class="m-2 ms-0 rounded-4 border" />
+            <div class="d-flex flex-column justify-content-center">
+              <h5>Finished.</h5>
+              <h6 class="text-muted mb-0">iOS and Android Mobile App</h6>
+            </div>
+          </div>
+
+          <p>
+            A fast, simple, and clean mobile app for organizing homework and
+            planning when to get it done. Built with
+            <a href="https://flutter.dev/">Google's Flutter Framework</a>.
+          </p>
+          <p>
+            I built this app over my sophomore and junior year of high school
+            years of high school.
+          </p>
+
+          <h6 class="font-weight-bold">Tech Stack</h6>
+          <ul>
+            <li>Flutter Mobile App (Client)</li>
+            <li>All data stored locally in app.</li>
+          </ul>
+
+          <h6 class="font-weight-bold">What I Learned</h6>
+          <ul>
+            <li>Flutter app architecture, structure, and maintainability</li>
+            <li>
+              Complex, Gesture-Driven Animations using the Animation
+              Controller (used for calendar pull-down menu)
+            </li>
+            <li>Outsourcing logic to separate classes</li>
+            <li>
+              Saving data to the disk with
+              <a href="https://pub.dev/packages/path_provider">
+                the path_provider package</a>
+            </li>
+          </ul>
+
+          <div>
+            <a href="https://apps.apple.com/us/app/finished-get-homework-done/id1481268497#?platform=iphone" class="btn btn-link">App Store</a>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="swim-stats">
+          <div class="row">
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="swimstats-images/home.PNG" class="w-100" alt="the home page" />
+            </div>
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="swimstats-images/show_swimmer.PNG" class="w-100" alt="the page that shows the swimmer's swim times and what time cuts they've achieved" />
+            </div>
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="swimstats-images/filter.PNG" class="w-100" alt="shows the filtering mechanism to easily and quickly view a specific event" />
+            </div>
+            <div class="col-6 col-lg-3" style="padding: 0 0.1rem">
+              <img src="swimstats-images/swim_details.PNG" class="w-100" alt="shows the extra details modal" />
+            </div>
+          </div>
+
+
+
+          <div class="d-flex flex-row align-items-center">
+            <img src="/app-icons/swim-stats.png" alt="" height="75px" class="m-2 ms-0 rounded-4 border" />
+            <div class="d-flex flex-column justify-content-center">
+              <h5>Swim Stats</h5>
+              <h6 class="text-muted mb-0">
+                iOS and Android Mobile App
+              </h6>
+            </div>
+          </div>
+
+          <p>
+            A fast, simple, and clean mobile app for viewing the race times of
+            any of the 400,000-plus swimmers within USA Swimming. Built with
+            <a href="https://flutter.dev/">Google's Flutter Framework</a>.
+          </p>
+          <p>
+            I built this app in the summer between my sophomore and junior
+            years of high school.
+          </p>
+
+          <h6 class="font-weight-bold">Tech Stack</h6>
+          <ul>
+            <li>Flutter Mobile App (Client)</li>
+            <li>
+              Custom Java Backend on AWS getting times from USA Swimming
+              website
+            </li>
+          </ul>
+
+          <h6 class="font-weight-bold">What I Learned</h6>
+          <ul>
+            <li>
+              I attained a solid grasp of the fundamentals and some advanced
+              features of the Flutter Framework, for example:
+              <ul>
+                <li>Simple Custom Animations with an Animation Controller</li>
+                <li>
+                  Managing routing with
+                  <a href="https://pub.dev/packages/fluro">the fluro router package</a>
+                </li>
+                <li>Outsourcing logic to separate classes</li>
+                <li>
+                  Saving data to the disk with
+                  <a href="https://pub.dev/packages/path_provider">
+                    the path_provider package</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <div>
+            <a href="https://apps.apple.com/us/app/swim-stats-view-swim-times/id1471724755#?platform=iphone" class="btn btn-link">App Store</a>
+          </div>
+        </div>
+
+        <hr />
+
+        <div>
+          <h5>Code Journal</h5>
+          <h6 class="text-muted">Web Application</h6>
+          <p>
+            A project I started as a sophomore in 2018. The app was originally
+            intended to be a blogging platform for students studying computer
+            science and learning programming, especially high school students.
+            However, because I failed to properly plan out what features,
+            pages, and routes my app would have, I failed to complete it.
+          </p>
+
+          <h6 class="font-weight-bold">Tech Stack</h6>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>EJS (Templating Engine)</li>
+            <li>Bootstrap CSS</li>
+          </ul>
+
+          <h6 class="font-weight-bold">What I Learned</h6>
+          <ul>
+            <li>
+              This project solidified my understanding of Node.js
+              fundamentals.
+            </li>
+
+            <li>
+              I gained a strong understanding of how web applications work and
+              how they're built.
+            </li>
+            <li>
+              I mastered the concept of RESTful routing as I applied it to the
+              structure of the routes in my application.
+            </li>
+            <li>
+              I learned the basics of interacting with MongoDB from a Node.js
+              environment and how to efficiently structure my data in a NoSQL
+              database.
+            </li>
+          </ul>
+
+          <div class="card-footer border-0 bg-white">
+            <a href="https://github.com/ZacharyEilers/CodeJournal" class="card-link">Github</a>
+          </div>
+        </div>
+
+        <hr />
+
+        <div>
+
+          <div class="d-flex flex-row align-items-center">
+            <img src="/app-icons/meteor-storm.png" alt="" height="75px" class="m-2 ms-0 rounded-4" />
+            <div class="d-flex flex-column justify-content-center">
+              <h5>Meteor Storm</h5>
+              <h6 class="text-muted mb-0">
+                iOS and Android Mobile Game
+              </h6>
+            </div>
+          </div>
+
+          <p>
+            Meteor Storm is a mobile game played by saving the Earth from
+            meteors flying towards it from the edges of the screen. The game
+            keeps track of the user's high score, allowing players to compare
+            their skills and compete for the best score.
+          </p>
+          <p>
+            I built Meteor Storm over about 3 months during January - March of
+            my freshman year of high school. The game was built with the
+            <a href="https://coronalabs.com/">Corona Game Engine</a>.
+          </p>
+
+          <h6 class="font-weight-bold">Tech Stack</h6>
+          <ul>
+            <li>Corona Game Engine with the Lua Programming Language</li>
+          </ul>
+
+          <h6 class="font-weight-bold">What I Learned</h6>
+          <ul>
+            <li>I learned a ton about game programming</li>
+            <li>
+              I gained a strong understanding of how large pieces of software
+              are built
+            </li>
+            <li>Gained experience in built complex software</li>
+          </ul>
+          <div>
+            <a href="https://github.com/ZacharyEilers/Meteor-Storm" class="btn btn-link">Github</a>
+            <a href="https://apps.apple.com/us/app/meteor-storm-defend-earth/id1358732295" class="btn btn-link">App Store</a>
+            <a href="https://play.google.com/store/apps/details?id=com.gmail.bluedeskstudios.Meteor_Storm&hl=en_US" class="btn btn-link">Google Play Store</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- FOOTER -->
+  <section id="footer" class="bg-dark mb-0">
+    <p class="py-3 text-white mb-0 text-center">
+      Copyright Zachary Eilers 2023
+    </p>
+  </section>
+  <!-- FOOTER -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+  <script src="index.js"></script>
+  <script src="navbar-shadow.js"></script>
+</body>
+
+</html>
